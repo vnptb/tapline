@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="sq">
+      <rect x="100" y="100" width="824" height="824" rx="185.4" ry="185.4"/>
+    </clipPath>
+
+    <!-- backdrop -->
+    <linearGradient id="bg" x1="0" y1="100" x2="0" y2="924" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5A47D"/>
+      <stop offset="0.55" stop-color="#DD6B42"/>
+      <stop offset="1" stop-color="#B03F26"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="430" cy="250" r="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE6D3" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFE6D3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="100" x2="0" y2="924" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="0.22" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="0.8" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5A1405" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <!-- cylinder shading -->
+    <linearGradient id="headCyl" x1="327" y1="0" x2="697" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09090A"/>
+      <stop offset="0.12" stop-color="#26262A"/>
+      <stop offset="0.32" stop-color="#4C4C53"/>
+      <stop offset="0.52" stop-color="#2F2F34"/>
+      <stop offset="0.84" stop-color="#121214"/>
+      <stop offset="1" stop-color="#050506"/>
+    </linearGradient>
+    <linearGradient id="bodyCyl" x1="327" y1="0" x2="697" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#040405"/>
+      <stop offset="0.15" stop-color="#18181B"/>
+      <stop offset="0.33" stop-color="#2B2B2F"/>
+      <stop offset="0.56" stop-color="#17171A"/>
+      <stop offset="0.88" stop-color="#09090A"/>
+      <stop offset="1" stop-color="#030303"/>
+    </linearGradient>
+    <linearGradient id="bandCyl" x1="327" y1="0" x2="697" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A1A1C"/>
+      <stop offset="0.3" stop-color="#9A9AA2"/>
+      <stop offset="0.43" stop-color="#E2E2E8"/>
+      <stop offset="0.7" stop-color="#55555B"/>
+      <stop offset="1" stop-color="#151517"/>
+    </linearGradient>
+    <linearGradient id="vSpec" x1="380" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="headTop" x1="0" y1="166" x2="0" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="headBottom" x1="0" y1="340" x2="0" y2="446" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <pattern id="mesh" width="14" height="24.249" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.03" r="4.1" fill="#000"/>
+      <circle cx="10.5" cy="15.155" r="4.1" fill="#000"/>
+    </pattern>
+
+    <!-- knob -->
+    <radialGradient id="well" cx="512" cy="592" r="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0.82" stop-color="#000"/>
+      <stop offset="1" stop-color="#202024"/>
+    </radialGradient>
+    <radialGradient id="spill" cx="512" cy="592" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0.45" stop-color="#FF7A42" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FF7A42" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="492" x2="0" y2="692" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFEBD6"/>
+      <stop offset="0.45" stop-color="#FFAA74"/>
+      <stop offset="1" stop-color="#FF6A36"/>
+    </linearGradient>
+    <linearGradient id="knobSide" x1="0" y1="506" x2="0" y2="678" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7A7A82"/>
+      <stop offset="0.45" stop-color="#2C2C30"/>
+      <stop offset="1" stop-color="#0A0A0B"/>
+    </linearGradient>
+    <linearGradient id="knobFace" x1="0" y1="520" x2="0" y2="664" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3C3C42"/>
+      <stop offset="1" stop-color="#1A1A1D"/>
+    </linearGradient>
+    <linearGradient id="faceRim" x1="0" y1="520" x2="0" y2="664" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.12"/>
+    </linearGradient>
+    <clipPath id="faceClip"><circle cx="512" cy="592" r="70"/></clipPath>
+
+    <!-- stand -->
+    <linearGradient id="neck" x1="474" y1="0" x2="550" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070708"/>
+      <stop offset="0.35" stop-color="#3A3A3E"/>
+      <stop offset="1" stop-color="#08080A"/>
+    </linearGradient>
+    <linearGradient id="puckSide" x1="337" y1="0" x2="687" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050506"/>
+      <stop offset="0.3" stop-color="#2C2C30"/>
+      <stop offset="0.6" stop-color="#151517"/>
+      <stop offset="1" stop-color="#040405"/>
+    </linearGradient>
+    <linearGradient id="puckTop" x1="0" y1="758" x2="0" y2="822" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5E5E64"/>
+      <stop offset="1" stop-color="#1E1E21"/>
+    </linearGradient>
+
+    <filter id="blur24" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="blur16" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="blur12" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="blur6" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blur2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2"/></filter>
+
+    <linearGradient id="warmRim" x1="327" y1="0" x2="697" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFB08A" stop-opacity="0.75"/>
+      <stop offset="0.12" stop-color="#FFB08A" stop-opacity="0"/>
+      <stop offset="0.88" stop-color="#FF8A5C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FF8A5C" stop-opacity="0.6"/>
+    </linearGradient>
+    <path id="micShape" d="M327 286 A120 120 0 0 1 447 166 L577 166 A120 120 0 0 1 697 286 L697 666 A56 56 0 0 1 641 722 L383 722 A56 56 0 0 1 327 666 Z"/>
+    <clipPath id="micClip"><use href="#micShape"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#sq)">
+    <!-- backdrop -->
+    <rect x="100" y="100" width="824" height="824" fill="url(#bg)"/>
+    <rect x="100" y="100" width="824" height="824" fill="url(#bgGlow)"/>
+
+    <g transform="translate(512 510) scale(1.03) translate(-512 -506)">
+    <!-- shadows -->
+    <ellipse cx="512" cy="846" rx="230" ry="30" fill="#3A0E02" opacity="0.55" filter="url(#blur12)"/>
+    <use href="#micShape" transform="translate(0 26)" fill="#3A0E02" opacity="0.45" filter="url(#blur24)"/>
+
+    <!-- stand: puck -->
+    <path d="M337 790 L337 822 A175 32 0 0 0 687 822 L687 790 Z" fill="url(#puckSide)"/>
+    <ellipse cx="512" cy="790" rx="175" ry="32" fill="url(#puckTop)"/>
+    <path d="M337 790 L337 822 A175 32 0 0 0 687 822 L687 790 Z" fill="url(#warmRim)" opacity="0.45"/>
+    <ellipse cx="512" cy="790" rx="173" ry="30" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="2"/>
+    <!-- neck -->
+    <rect x="474" y="700" width="76" height="96" rx="10" fill="url(#neck)"/>
+    <ellipse cx="512" cy="793" rx="42" ry="8" fill="#000" opacity="0.55"/>
+
+    <!-- mic body -->
+    <g clip-path="url(#micClip)">
+      <!-- lower body -->
+      <rect x="327" y="440" width="370" height="290" fill="url(#bodyCyl)"/>
+      <rect x="327" y="440" width="370" height="290" fill="url(#vSpec)" opacity="0.5"/>
+      <rect x="327" y="440" width="370" height="290" fill="url(#spill)"/>
+      <!-- head -->
+      <rect x="327" y="160" width="370" height="290" fill="url(#headCyl)"/>
+      <rect x="327" y="160" width="370" height="290" fill="url(#mesh)" opacity="0.82"/>
+      <rect x="327" y="160" width="370" height="290" fill="url(#vSpec)"/>
+      <rect x="327" y="160" width="370" height="290" fill="url(#headTop)"/>
+      <rect x="327" y="160" width="370" height="290" fill="url(#headBottom)"/>
+      <!-- band -->
+      <rect x="327" y="444" width="370" height="16" fill="url(#bandCyl)"/>
+      <rect x="327" y="460" width="370" height="4" fill="#000" opacity="0.6"/>
+      <rect x="327" y="464" width="370" height="2" fill="#FFFFFF" opacity="0.1"/>
+    </g>
+    <g clip-path="url(#micClip)">
+      <use href="#micShape" fill="none" stroke="url(#warmRim)" stroke-width="40" opacity="0.28" filter="url(#blur6)"/>
+      <use href="#micShape" fill="none" stroke="url(#warmRim)" stroke-width="5"/>
+    </g>
+    <use href="#micShape" fill="none" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="3"/>
+
+    <!-- knob well + glowing ring -->
+    <circle cx="512" cy="592" r="114" fill="url(#well)"/>
+    <circle cx="512" cy="592" r="101" fill="none" stroke="#FF7E45" stroke-width="34" opacity="0.75" filter="url(#blur16)"/>
+    <circle cx="512" cy="592" r="101" fill="none" stroke="#FFA16C" stroke-width="14" opacity="0.8" filter="url(#blur6)"/>
+    <circle cx="512" cy="592" r="101" fill="none" stroke="url(#ring)" stroke-width="12"/>
+    <circle cx="512" cy="592" r="101" fill="none" stroke="#FFF7EE" stroke-width="3" opacity="0.85" filter="url(#blur2)"/>
+
+    <!-- knob -->
+    <circle cx="512" cy="598" r="88" fill="#000" opacity="0.75" filter="url(#blur6)"/>
+    <circle cx="512" cy="592" r="87" fill="url(#knobSide)"/>
+    <circle cx="512" cy="592" r="81" fill="none" stroke="#0B0B0C" stroke-width="10" stroke-dasharray="2.4 2.69"/>
+    <circle cx="512" cy="592" r="87" fill="none" stroke="#000" stroke-opacity="0.6" stroke-width="1.5"/>
+    <!-- flat machined face -->
+    <circle cx="512" cy="592" r="70" fill="url(#knobFace)"/>
+    <g clip-path="url(#faceClip)">
+      <g fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="2">
+        <circle cx="512" cy="592" r="8"/><circle cx="512" cy="592" r="14"/><circle cx="512" cy="592" r="20"/>
+        <circle cx="512" cy="592" r="26"/><circle cx="512" cy="592" r="32"/><circle cx="512" cy="592" r="38"/>
+        <circle cx="512" cy="592" r="44"/><circle cx="512" cy="592" r="50"/><circle cx="512" cy="592" r="56"/>
+        <circle cx="512" cy="592" r="62"/><circle cx="512" cy="592" r="68"/>
+      </g>
+      <!-- anisotropic (radial-brush) highlight -->
+      <path d="M512 592 L452 500 L500 492 Z M512 592 L572 684 L524 692 Z" fill="#FFFFFF" opacity="0.22" filter="url(#blur6)"/>
+    </g>
+    <circle cx="512" cy="592" r="69" fill="none" stroke="url(#faceRim)" stroke-width="2.5"/>
+    <!-- pointer LED -->
+    <circle cx="512" cy="540" r="9" fill="#FF8A50" opacity="0.8" filter="url(#blur6)"/>
+    <circle cx="512" cy="540" r="5" fill="#FFE2C8"/>
+
+    </g>
+
+    <!-- squircle rim light -->
+    <rect x="100" y="100" width="824" height="824" rx="185.4" ry="185.4" fill="none" stroke="url(#rim)" stroke-width="6"/>
+  </g>
+</svg>

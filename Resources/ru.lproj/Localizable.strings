@@ -1,0 +1,86 @@
+/* Setup: welcome */
+"Your mic button, now a remote for AI" = "Кнопка микрофона — пульт для ИИ";
+"Get started" = "Начать";
+"Takes less than a minute." = "Это займёт меньше минуты.";
+
+/* Setup: learning */
+"Hands off the mic for a second" = "Секунду не трогайте микрофон";
+"Learning what the microphone does when nobody touches it." = "Запоминаем, как микрофон ведёт себя, когда его никто не трогает.";
+"Press the mic button %d times" = "Нажмите кнопку %d раза";
+"Take your time, about a second between presses. A mute button, a monitoring button or a press on the volume knob will do." = "Не спешите, примерно секунда между нажатиями. Подойдёт кнопка мьюта, мониторинга или нажатие на ручку громкости.";
+"Got it — button recognized" = "Есть! Кнопка распознана";
+"No USB microphone found" = "USB-микрофон не найден";
+"Connect the microphone with a USB cable and try again. Bluetooth microphones don't work." = "Подключите микрофон USB-кабелем и попробуйте ещё раз. Bluetooth-микрофоны не подходят.";
+"Couldn't hear the button" = "Не получилось распознать кнопку";
+"This button seems to work only inside the microphone and never tells the computer it was pressed. Try another button or the knob." = "Похоже, эта кнопка работает только внутри микрофона и не сообщает компьютеру о нажатиях. Попробуйте другую кнопку или ручку.";
+"Continue" = "Дальше";
+"Try again" = "Попробовать ещё раз";
+
+/* Setup: action */
+"What should the button do?" = "Что делать по нажатию?";
+"You can change it any time from the menu bar." = "Поменять можно в любой момент в строке меню.";
+"Dictation in Claude" = "Диктовка в Claude";
+"Opens Claude and starts dictation in the message box" = "Открывает Claude и включает диктовку в поле сообщения";
+"Voice chat in ChatGPT" = "Голосовой чат в ChatGPT";
+"Opens ChatGPT and starts a voice chat. Works in Codex too" = "Открывает ChatGPT и включает голосовой чат. Работает и в Codex";
+"ChatGPT dictation anywhere" = "Диктовка ChatGPT везде";
+"Types into any app. In ChatGPT settings, set the single-tap dictation shortcut to ⌃⌥⇧D" = "Печатает в любом приложении. В настройках диктовки ChatGPT задайте ⌃⌥⇧D для старта одним нажатием";
+"Your own action" = "Своё действие";
+"Any keyboard shortcut, in any app" = "Любое сочетание клавиш в любом приложении";
+"Name" = "Название";
+"e.g. Wispr Flow" = "например, Wispr Flow";
+"Shortcut" = "Сочетание";
+"Click to record" = "Нажмите, чтобы записать";
+"Press a shortcut…" = "Нажмите сочетание…";
+"App" = "Приложение";
+"Whatever app is in front" = "Активное приложение";
+"Choose…" = "Выбрать…";
+"Change…" = "Сменить…";
+"Choose" = "Выбрать";
+"Cancel" = "Отменить";
+"Add" = "Добавить";
+"Delete" = "Удалить";
+"My action" = "Моё действие";
+"%@ in %@" = "%@ в %@";
+
+/* Setup: permission */
+"Permission granted" = "Разрешение получено";
+"Everything is in place." = "Всё на месте.";
+"Open System Settings" = "Открыть Системные настройки";
+"Skip for now" = "Пропустить";
+
+/* Setup: done */
+"All set" = "Всё настроено";
+"Press the button on the microphone to check." = "Нажмите кнопку на микрофоне, чтобы проверить.";
+"Works" = "Работает";
+"From now on the button runs “%@”. The app lives in the menu bar: change the action there, or give the button its old job back." = "Теперь кнопка запускает «%@». Приложение живёт в строке меню: там можно сменить действие или вернуть кнопке прежнюю работу.";
+"Finish" = "Готово";
+
+/* Menu bar */
+"%@ — connected" = "%@ — подключён";
+"%@ — not connected" = "%@ — не подключён";
+"The mic button" = "Кнопка микрофона";
+"Runs “%@”" = "Запускает «%@»";
+"Does its usual job" = "Работает как обычно";
+"Action" = "Действие";
+"Add your own…" = "Добавить своё…";
+"⚠️ Allow key presses…" = "⚠️ Разрешить нажатие клавиш…";
+"Set up the button again…" = "Настроить кнопку заново…";
+"Set up the mic button…" = "Настроить кнопку микрофона…";
+"Open at login" = "Открывать при входе в систему";
+"Quit" = "Завершить";
+"Teach the app to hear the button on your USB microphone. Then one press starts dictation in Claude or ChatGPT, or works as any shortcut you choose." = "Научите приложение слышать кнопку на вашем USB-микрофоне. После этого одно нажатие включает диктовку в Claude или ChatGPT либо срабатывает как любое сочетание клавиш.";
+"Not quite three presses" = "Не хватило нажатий";
+"The app noticed the button, but not three separate presses. Press it again, about a second apart." = "Приложение заметило кнопку, но не три отдельных нажатия. Попробуйте ещё раз, примерно через секунду между нажатиями.";
+"Found the button on %@. While the app is on, a press runs your action instead of its usual job." = "Кнопка на %@ найдена. Пока приложение включено, нажатие запускает ваше действие вместо прежней функции.";
+"Allow %@ to press keys" = "Разрешите %@ нажимать клавиши";
+"To run “%1$@”, %2$@ presses a keyboard shortcut for you. macOS allows this only with your permission: turn on %2$@ under Privacy & Security → Accessibility." = "Чтобы запускать «%1$@», %2$@ нажимает за вас сочетание клавиш. macOS разрешает это только с вашего согласия: включите %2$@ в разделе «Конфиденциальность и безопасность» → «Универсальный доступ».";
+"Claude voice input anywhere" = "Голосовой ввод Claude везде";
+"From any app. Set Claude's voice shortcut to Caps Lock first, or the button only toggles Caps Lock" = "Из любого приложения. Сначала назначьте в Claude голосовой ввод на Caps Lock, иначе кнопка просто включит Caps Lock";
+"Found the button on %@. A press runs your action, and the button keeps its usual job too." = "Кнопка на %@ найдена. Нажатие запускает ваше действие, а прежняя функция кнопки тоже остаётся.";
+"%@ is already in the list but this doesn't work? Remove it with “−” and allow it again." = "%@ уже в списке, а не работает? Удалите его кнопкой «−» и разрешите заново.";
+"Voice and AI" = "Голос и ИИ";
+"Mute in calls" = "Мьют в созвонах";
+"Your own" = "Свои";
+"Mute in %@" = "Мьют в %@";
+"Switches the mic on or off in the call and takes you back to your app" = "Включает и выключает микрофон в созвоне и возвращает вас туда, где вы были";
