@@ -63,8 +63,8 @@ To change the icon, edit `icon/icon.svg` and run `icon/make_icon.sh`.
 | Microphone | Button | Works |
 |---|---|---|
 | RØDE NT-USB Mini | Press on the headphone knob (monitoring) | ✅ Tested |
+| RØDE PodMic USB, XCM-50, XDM-100 | Press on the headphone knob (monitoring), same design as the NT-USB Mini | 🟢 Should work |
 | Shure MV7+, Shure MV6, HyperX SoloCast, Elgato Wave:3 | Tap-to-mute | 🟢 Should work |
-| RØDE PodMic USB, XCM-50, XDM-100 | Press on the headphone knob (monitoring), same design as the NT-USB Mini | 🟡 Might work |
 | HyperX QuadCast, DuoCast, Blue Yeti, Yeti X, Yeti Nano, Razer Seiren, Audio-Technica AT2020USB-X, Sennheiser Profile, AKG Lyra, Elgato Wave:1 and Wave Neo, FIFINE, MAONO, JBL Quantum Stream and more | Mute button, tap-to-mute or push-in knob | 🟡 Might work |
 | HyperX QuadCast S, QuadCast 2, Logitech G Yeti GX, Shure MV7 | Tap-to-mute | 🟡 Might work, but the mic stays muted |
 

@@ -63,8 +63,8 @@ cd tapline
 | Микрофон | Кнопка | Работает |
 |---|---|---|
 | RØDE NT-USB Mini | Нажатие на ручку наушников (мониторинг) | ✅ Проверено |
+| RØDE PodMic USB, XCM-50, XDM-100 | Нажатие на ручку наушников (мониторинг), та же конструкция, что у NT-USB Mini | 🟢 Должно работать |
 | Shure MV7+, Shure MV6, HyperX SoloCast, Elgato Wave:3 | Сенсорный мьют | 🟢 Должно работать |
-| RØDE PodMic USB, XCM-50, XDM-100 | Нажатие на ручку наушников (мониторинг), та же конструкция, что у NT-USB Mini | 🟡 Может заработать |
 | HyperX QuadCast, DuoCast, Blue Yeti, Yeti X, Yeti Nano, Razer Seiren, Audio-Technica AT2020USB-X, Sennheiser Profile, AKG Lyra, Elgato Wave:1 и Wave Neo, FIFINE, MAONO, JBL Quantum Stream и другие | Кнопка мьюта, сенсорный мьют или нажимная ручка | 🟡 Может заработать |
 | HyperX QuadCast S, QuadCast 2, Logitech G Yeti GX, Shure MV7 | Сенсорный мьют | 🟡 Может заработать, но микрофон останется заглушённым |
 

@@ -7,7 +7,7 @@ There's no list of supported models inside the app. Setup asks you to press the 
 ## What the marks mean
 
 - ✅ **Tested.** Someone ran Tapline with this mic and it works.
-- 🟢 **Should work.** Public reports show that a press flips a USB Audio Class switch, the kind Tapline reads. Tapline also tries to undo the press, so a mute button doesn't actually mute.
+- 🟢 **Should work.** Public reports show that a press flips a USB Audio Class switch, the kind Tapline reads, or the mic is built the same way as one we tested. Tapline also tries to undo the press, so a mute button doesn't actually mute.
 - 🟡 **Might work.** The mic has a button or a push-in knob, and nobody has tried it with Tapline yet. Try it: setup tells you within 20 seconds.
   "Mute stays" means the mic reports the press as a HID message after it has already muted itself. Tapline sees the press and runs your action, but has nothing to switch back, so the mic stays muted. That works for syncing mute with Zoom or Discord, not for dictation.
 - ⛔ **Won't work.** There's no button, or the button talks only to the maker's own app.
@@ -19,9 +19,9 @@ Wireless clip-on receivers (DJI Mic, Hollyland Lark, RØDE Wireless GO) and USB 
 | Microphone | Button | Tapline |
 |---|---|---|
 | **RØDE NT-USB Mini**<br><sub>NTUSB Mini · 19f7:0015</sub> | Press on the headphone knob (zero-latency monitoring) | ✅ Tested<br><sub>The press also keeps toggling monitoring: the mic doesn't let apps undo it.</sub> |
-| **RØDE PodMic USB**<br><sub>19f7:004a</sub> | Press on the headphone knob (monitoring) | 🟡 Might work<br><sub>Same knob-press design as the NT-USB Mini, so a good candidate.</sub> |
-| **RØDE XCM-50** | Press on the headphone knob (monitoring) | 🟡 Might work<br><sub>Same knob-press design as the NT-USB Mini, so a good candidate.</sub> |
-| **RØDE XDM-100**<br><sub>19f7:0033</sub> | Press on the headphone knob (monitoring) | 🟡 Might work<br><sub>Same knob-press design as the NT-USB Mini, so a good candidate.</sub> |
+| **RØDE PodMic USB**<br><sub>19f7:004a</sub> | Press on the headphone knob (monitoring) | 🟢 Should work<br><sub>Same knob-press design as the NT-USB Mini.</sub> |
+| **RØDE XCM-50** | Press on the headphone knob (monitoring) | 🟢 Should work<br><sub>Same knob-press design as the NT-USB Mini.</sub> |
+| **RØDE XDM-100**<br><sub>19f7:0033</sub> | Press on the headphone knob (monitoring) | 🟢 Should work<br><sub>Same knob-press design as the NT-USB Mini.</sub> |
 | **RØDE NT-USB+**<br><sub>NT-USB Plus</sub> | Two knobs, no button | ⛔ Won't work |
 | **RØDE Wireless GO II / GO (Gen 3) / PRO / ME** | Mute on the transmitter or receiver | 🟡 Might work |
 | **RØDE NT-USB** | Two knobs, no button | ⛔ Won't work |
